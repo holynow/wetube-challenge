@@ -1,0 +1,28 @@
+{
+  "name": "wetube-challenge",
+  "version": "1.0.0",
+  "description": "nomardcoders with wetube clone coding challenge",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/holynow/wetube-challenge.git"
+  },
+  "scripts": {
+    "dev": "nodemon --exec babel-node src/server.js"
+  },
+  "author": "SeokWon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/holynow/wetube-challenge/issues"
+  },
+  "homepage": "https://github.com/holynow/wetube-challenge#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "morgan": "^1.10.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.9",
+    "@babel/node": "^7.22.6",
+    "@babel/preset-env": "^7.22.9",
+    "nodemon": "^3.0.1"
+  }
+}
